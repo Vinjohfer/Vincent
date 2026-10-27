@@ -1,0 +1,43 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Vincent";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VINCENT</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+    <h1 id="songTitle">VINCENT</h1>
+
+    <p>This is my webpage about my favorite song "Vincent" by Don McLean.</p>
+
+    <h2>About the Song</h2>
+
+    <p>
+        Vincent is a song inspired by the artist Vincent van Gogh
+        and his famous painting, Starry Night.
+    </p>
+
+    <h2>Listen to the Song</h2>
+
+    <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/oxHnRfhDmrk"
+            title="Vincent by Don McLean"
+            allowfullscreen>
+    </iframe>
+
+    <br />
+
+    <button id="starButton" type="button">Click Me</button>
+
+    <p id="message">Enjoy the song!</p>
+
+    <script src="~/js/site.js"></script>
+
+</body>
+</html>
